@@ -28,7 +28,7 @@ export default function AboutPage() {
                 Simplifying Your Digital Footprint
               </p>
               <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-                Our goal is to provide a fast, simple, and reliable tool for shortening URLs. We're dedicated to helping individuals and businesses manage their links more effectively, turning long, cumbersome web addresses into powerful marketing and communication tools.
+                {"Our goal is to provide a fast, simple, and reliable tool for shortening URLs. We're dedicated to helping individuals and businesses manage their links more effectively, turning long, cumbersome web addresses into powerful marketing and communication tools."}
               </p>
             </div>
           </div>
@@ -58,7 +58,7 @@ export default function AboutPage() {
                             <span className="text-2xl font-bold">2</span>
                         </div>
                         <h3 className="text-xl font-semibold text-gray-900 mb-2">Shorten It</h3>
-                        <p className="text-gray-500">Click the "Shorten" button and watch as we instantly generate a compact, shareable link.</p>
+                        <p className="text-gray-500">{"Click the @quot;Shorten@quot; button and watch as we instantly generate a compact, shareable link."}</p>
                     </div>
                     {/* Step 3 */}
                     <div className="flex flex-col items-center text-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
@@ -120,7 +120,7 @@ export default function AboutPage() {
                     <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Detailed Analytics</p>
                   </dt>
                   <dd className="mt-2 ml-16 text-base text-gray-500">
-                    Track every click. Understand your audience with detailed statistics on who is clicking your links, where they're from, and when.
+                    {"Track every click. Understand your audience with detailed statistics on who is clicking your links, where they're from, and when."}
                   </dd>
                 </div>
 
@@ -148,7 +148,7 @@ export default function AboutPage() {
               <span className="block">Shorten your first link today.</span>
             </h2>
             <p className="mt-4 text-lg leading-6 text-purple-200">
-              Join thousands of users who are simplifying their digital presence with us. It's free to get started.
+              {"Join thousands of users who are simplifying their digital presence with us. It's free to get started."}
             </p>
             <Link
               href="/"
