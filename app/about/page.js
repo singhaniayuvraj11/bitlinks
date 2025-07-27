@@ -1,4 +1,4 @@
-import { ShieldCheck, Target, Zap, Link as LinkIcon } from 'lucide-react';
+import { ShieldCheck, Target, Zap, Link as LinkIcon, Link } from 'lucide-react';
 
 // This is the main component for the "About Us" page.
 // It's a functional component that uses Tailwind CSS for styling.
@@ -14,7 +14,7 @@ export default function AboutPage() {
               More Than Just Shorter Links
             </h1>
             <p className="max-w-2xl mx-auto text-lg sm:text-xl text-purple-200">
-              We believe in the power of a short link. It's not just about saving space; it's about creating connections, building brands, and analyzing performance with a single click.
+              {"We believe in the power of a short link. It's not just about saving space; it's about creating connections, building brands, and analyzing performance with a single click."}
             </p>
           </div>
         </section>
@@ -150,12 +150,12 @@ export default function AboutPage() {
             <p className="mt-4 text-lg leading-6 text-purple-200">
               Join thousands of users who are simplifying their digital presence with us. It's free to get started.
             </p>
-            <a
+            <Link
               href="/"
               className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-purple-600 bg-white hover:bg-purple-50 sm:w-auto transition-colors duration-300"
             >
               Get Started
-            </a>
+            </Link>
           </div>
         </section>
       </main>
